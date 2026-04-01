@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Page Info",
+  "version": "1.0",
+  "description": "Shows current page title and URL, with a copy button.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon32.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["activeTab"]
+}
